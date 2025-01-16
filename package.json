@@ -1,0 +1,15 @@
+{
+  "name": "device-list-tests",
+  "version": "1.0.0",
+  "description": "Automated Testing with TestCafe",
+  "main": "index.js",
+  "devDependencies": {
+    "testcafe": "^3.7.1"
+  },
+  "scripts": {
+    "test:chrome": "testcafe chrome tests",
+    "test:chrome:headless": "testcafe \"chrome --headless\" tests"
+  },
+  "author": "Daniel Junior",
+  "license": "ISC"
+}
